@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina Trip - Blog de Voyage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Argentina Blog Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="#gallery">Galerie</a></li>
+            <li><a href="currently.html">En ce moment</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="burger">
+            <div class="line1"></div><div class="line2"></div><div class="line3"></div>
+        </div>
+    </nav>
+
+    <header class="hero" style="background-image: url('assets/hero-home.jpg');">
+        <div class="hero-content">
+            <h1>ARGENTINE : DE LA TERRE DE FEU À LA JUNGLE</h1>
+            <a href="salta.html" class="btn">Vamonos !</a>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </header>
+
+    <section class="highlights-grid">
+        <a href="about.html" class="card" style="background-image: url('assets/card-about.jpg');">
+            <div class="overlay">
+                <h3>QUI SUIS-JE ?</h3>
+            </div>
+        </a>
+        
+        <div class="card" style="background-image: url('assets/card-insta.jpg');">
+            <div class="overlay">
+                <h3>INSTAGRAM</h3>
+            </div>
+        </div>
+        
+        <a href="currently.html" class="card" style="background-image: url('assets/card-current.jpg');">
+            <div class="overlay">
+                <h3>EN CE MOMENT À BA</h3>
+            </div>
+        </a>
+    </section>
+
+    <section class="destinations" id="gallery">
+        <div class="grid-gallery">
+            <div class="gallery-item" style="background-image: url('assets/dest-ushuaia.jpg');">
+                <div class="label-box">USHUAIA - FIN DEL MUNDO <i class="fas fa-camera"></i></div>
+            </div>
+            
+            <a href="salta.html" class="gallery-item interactive-card" style="background-image: url('assets/dest-salta.jpg');">
+                <div class="label-box">
+                    NORD OUEST & SALTA <i class="fas fa-arrow-right"></i> </div>
+            </a>
+            
+            <div class="gallery-item" style="background-image: url('assets/dest-ba.jpg');">
+                <div class="label-box">BUENOS AIRES - TANGO</div>
+            </div>
+            
+            <div class="gallery-item" style="background-image: url('assets/dest-iguazu.jpg');">
+                <div class="label-box">CHUTES D'IGUAZU</div>
+            </div>
+            <div class="gallery-item" style="background-image: url('assets/dest-patagonie.jpg');">
+                <div class="label-box">EL CALAFATE - GLACIERS</div>
+            </div>
+            <div class="gallery-item" style="background-image: url('assets/dest-mendoza.jpg');">
+                <div class="label-box">MENDOZA - ROUTE DES VINS</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="instagram-strip">
+            <img src="assets/strip-1.jpg" alt="">
+            <img src="assets/strip-2.jpg" alt="">
+            <img src="assets/strip-3.jpg" alt="">
+        </div>
+
+        <div class="contact-form-container">
+            <h2>VOUS DÉSIREZ ME CONTACTER ?</h2>
+            <form id="contactForm">
+                <div class="form-row">
+                    <input type="text" placeholder="Nom" required>
+                    <input type="email" placeholder="Adresse e-mail" required>
+                </div>
+                <textarea placeholder="Votre message..." rows="6" required></textarea>
+                
+                <div class="form-footer">
+                    <div class="captcha">9 + 8 = <input type="text" class="captcha-box"></div>
+                    <button type="submit" class="btn-submit">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Projet Web - Design inspiré de The Wandering Freckles</p>
+        <div class="social-icons-footer">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
